@@ -1,0 +1,6 @@
+/.vs
+/SpotlightViewer/.vs
+/SpotlightViewer/obj
+/SpotlightViewer/bin
+*.user
+*.suo
