@@ -3,9 +3,12 @@ using SpotlightViewer.ViewModels;
 
 namespace SpotlightViewer
 {
-    public sealed partial class MainPage
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow
     {
-        public MainPage()
+        public MainWindow()
         {
             InitializeComponent();
             DataContext = new MainViewModel(new FileService());
